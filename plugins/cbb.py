@@ -11,7 +11,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     if data == "about":
         await query.message.edit_text(
             text = f"<b>╭━━━━━━━━━━━━━━━➣\n┣⪼ Creator : <a href='tg://user?id={OWNER_ID}'>Me</a>\n┣⪼ Language : Python3\n┣⪼ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n┣⪼ Source Code : <a href='https://t.me/Master_brooi'>OP-File Store Bot</a>\n┣⪼ My Crush : <a href='https://t.me/Elsaa_MsT_bot'>💥𝐖𝐚𝐳𝐞𝐞𝐦⚡️</a>\n┣⪼ YouTube Channel : <a href='https://t.me/Master_brooi'>Nothing</a>\n╰━━━━━━━━━━━━━━━➣</b>",
-            disable_web_page_preview = True,,
+            disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
